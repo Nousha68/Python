@@ -1,0 +1,5 @@
+name,age,score,scorestatuse,agestatuse
+Ara,19,13.5,pass,young
+Sara,11,18.8,pass,child
+Zahra,26,12.0,fail,older than class renge age
+reza,17,12.0,fail,teenager

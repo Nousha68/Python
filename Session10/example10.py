@@ -1,0 +1,10 @@
+num=int(input("number of employee"))
+file=open("employee.csv","w")
+file.write("name,salary,age\n")
+for i in range(num):
+    name=input("what is your name?")
+    salary=int(input("how much is your salary?"))
+    age=int(input("how old are you?"))
+    # file.write(name+","+str(salary)+","+str(age)+"\n")
+    file.write(f"{name},{salary},{age}\n")
+file.close()

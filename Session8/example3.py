@@ -1,0 +1,20 @@
+a=[1,2,3,4,5,6,7,8,9,10]
+b=list(range(5,18))
+c=list(range(0,21,2))
+d=list(range(1,21,2))
+print(a,b,c,d, sep="\n")
+
+e={1,2,2,4,7,8,4}
+print(type(e))
+print(e)
+e.add(9)
+print(e)
+e.remove(4)
+print(e)
+f=e.pop()
+print(e)
+print(f)
+e.discard(7)
+print(e)
+e.clear()
+print(e)
